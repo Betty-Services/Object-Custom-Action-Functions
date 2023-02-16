@@ -1,6 +1,6 @@
 {
-  "description": "Delets the Key Value in the provided Object.",
-  "label": "Fetch Object Variable",
+  "description": "Deletes the Key Value in the provided Object.",
+  "label": "Delete Object Variable",
   "category": "Object",
   "icon": {
     "color": "Pink",
