@@ -1,0 +1,35 @@
+{
+  "description": "Parses JSON into an Object.",
+  "label": "Parse As Object",
+  "category": "Object",
+  "icon": {
+    "color": "Teal",
+    "name": "VariableIcon"
+  },
+  "options": [
+    {
+      "label": "JSON",
+      "name": "json",
+      "info": "The value you want to convert to an object.",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["JSON"],
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "info": "The name of the variable you want for the parsed value.",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
