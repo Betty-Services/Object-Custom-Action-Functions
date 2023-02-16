@@ -1,0 +1,47 @@
+{
+  "description": "Just like the Fetch Object Variable action function, this step lets you fetch values from an Object by specifying the key. This step is expanded with the ability to fetch nested values. Credits to Luke Kopmeyer from Gunderson for the idea.",
+  "label": "Luke's Fetch Object Variable",
+  "category": "Object",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "name": "object",
+      "label": "object",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["OBJECT"],
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "info": "Fill in the 'path' of the keys where you trying to get the value from. Arrays can be accessed by using a number.",
+      "label": "expression",
+      "name": "expression",
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "configuration": {
+        "placeholder": "my.nested.0.key"
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}

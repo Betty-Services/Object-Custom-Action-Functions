@@ -1,0 +1,61 @@
+{
+  "description": "Allows you to set a new key and value for the given Object.",
+  "label": "Add new Key-Value to Object",
+  "category": "Object",
+  "icon": {
+    "name": "FieldsetIcon",
+    "color": "Teal"
+  },
+  "options": [
+    {
+      "name": "object",
+      "label": "object",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["OBJECT"],
+        "validations": {
+          "required": true
+        }
+      },
+      "info": "Select an Object that should receive the new key value."
+    },
+    {
+      "name": "key",
+      "label": "key",
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": true
+        }
+      },
+      "info": "The Key under which to store the value."
+    },
+    {
+      "name": "value",
+      "label": "value",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": [
+          "OBJECT",
+          "NUMBER",
+          "STRING",
+          "FILE",
+          "IMAGE",
+          "BOOLEAN"
+        ]
+      },
+      "info": "The value the Key should get."
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}

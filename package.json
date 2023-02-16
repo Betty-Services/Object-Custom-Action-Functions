@@ -19,6 +19,8 @@
   "homepage": "https://github.com/Betty-Services/custom-action-functions-template#readme",
   "dependencies": {
     "@babel/preset-env": "^7.20.2",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "xmlbuilder": "^15.1.1"
   }
 }

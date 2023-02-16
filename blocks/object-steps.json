@@ -1,0 +1,11 @@
+{
+  "dependencies": ["xmlbuilder", "lodash"],
+  "functions": [
+    "objectBuilder 1.0",
+    "lukeFetchObjectVariable 1.0",
+    "insertValueInObject 1.0",
+    "fetchObjectVariable 1.0",
+    "objectToXml 1.0"
+  ],
+  "includes": []
+}

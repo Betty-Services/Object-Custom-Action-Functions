@@ -1,0 +1,46 @@
+{
+  "description": "Fetches the Value of the given Key from the provided Object.",
+  "label": "Fetch Object Variable",
+  "category": "Object",
+  "icon": {
+    "color": "Teal",
+    "name": "ExpressionIcon"
+  },
+  "options": [
+    {
+      "name": "object",
+      "label": "Object",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["OBJECT"],
+        "validations": {
+          "required": true
+        }
+      },
+      "info": "The Object you want to fetch the variable from."
+    },
+    {
+      "name": "keyName",
+      "label": "Key Name",
+      "meta": {
+        "type": "Text",
+        "validations": {
+          "required": false
+        }
+      },
+      "info": "The key that you want to fetch the Value from."
+    },
+    {
+      "name": "as",
+      "label": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "info": "The name of the variable you want for the fetched veriable."
+    }
+  ],
+  "yields": "NONE"
+}

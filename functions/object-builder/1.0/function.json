@@ -1,0 +1,33 @@
+{
+  "description": "Create a new Object with specified key-values.",
+  "label": "Object Builder",
+  "category": "Object",
+  "icon": {
+    "name": "ToolsIcon",
+    "color": "Green"
+  },
+  "options": [
+    {
+      "name": "keyValue",
+      "info": "On the left hand, you can define Keys. On the right hand, you can set the Value for the Key.",
+      "label": "Key Value",
+      "meta": {
+        "type": "Map",
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "as",
+      "label": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}

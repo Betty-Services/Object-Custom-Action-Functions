@@ -1,0 +1,35 @@
+{
+  "description": "This converts an Object to XML",
+  "label": "JSON To XML",
+  "category": "Object",
+  "icon": {
+    "name": "CodeIcon",
+    "color": "Green"
+  },
+  "options": [
+    {
+      "label": "input",
+      "name": "object",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["OBJECT"],
+        "validations": {
+          "required": true
+        }
+      },
+      "info": "The JSON/Object you want to convert into XML text."
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "info": "Outputs the XML text"
+    }
+  ],
+  "yields": "NONE"
+}
