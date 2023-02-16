@@ -1,6 +1,6 @@
 {
   "description": "This converts an Object to XML",
-  "label": "JSON To XML",
+  "label": "Object To XML",
   "category": "Object",
   "icon": {
     "name": "CodeIcon",
