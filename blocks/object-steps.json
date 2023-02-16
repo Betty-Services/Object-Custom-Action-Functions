@@ -5,7 +5,9 @@
     "lukeFetchObjectVariable 1.0",
     "insertValueInObject 1.0",
     "fetchObjectVariable 1.0",
-    "objectToXml 1.0"
+    "objectToXml 1.0",
+    "parseAsObject 1.0",
+    "deleteKeyValueInObject 1.0"
   ],
   "includes": []
 }
