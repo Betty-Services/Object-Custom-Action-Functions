@@ -3,7 +3,7 @@
   "label": "Parse As Object",
   "category": "Object",
   "icon": {
-    "color": "Teal",
+    "color": "Grey",
     "name": "VariableIcon"
   },
   "options": [

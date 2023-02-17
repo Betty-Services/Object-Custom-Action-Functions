@@ -3,8 +3,8 @@
   "label": "Luke's Fetch Object Variable",
   "category": "Object",
   "icon": {
-    "name": "ActionsIcon",
-    "color": "Orange"
+    "name": "ExpressionIcon",
+    "color": "Teal"
   },
   "options": [
     {
