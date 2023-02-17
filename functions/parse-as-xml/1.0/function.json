@@ -1,10 +1,10 @@
 {
   "description": "This converts an Object to XML",
-  "label": "Object To XML",
+  "label": "Parse as XML",
   "category": "Object",
   "icon": {
-    "name": "CodeIcon",
-    "color": "Green"
+    "name": "VariableIcon",
+    "color": "Grey"
   },
   "options": [
     {

@@ -1,6 +1,6 @@
 {
   "description": "Parses JSON into an Object.",
-  "label": "Parse As Object",
+  "label": "Parse as Object",
   "category": "Object",
   "icon": {
     "color": "Grey",
