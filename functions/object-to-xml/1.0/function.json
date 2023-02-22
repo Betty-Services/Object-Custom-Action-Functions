@@ -29,6 +29,15 @@
         }
       },
       "info": "Outputs the XML text"
+    },
+    {
+      "label": "Pretty?",
+      "name": "pretty",
+      "meta": {
+        "type": "Boolean",
+        "default": true
+      },
+      "info": "Nicely prints the XML with indentation and new lines."
     }
   ],
   "yields": "NONE"
