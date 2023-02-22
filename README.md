@@ -94,4 +94,27 @@ Optionally, you can toggle off the `Pretty` option to have it all be in one line
 <?xml version="1.0" encoding="utf-8"?><foo>bar</foo><biz>qux</biz><quux><corge>grault</corge></quux>
 ```
 
-### Parse as Object
+### Parse JSON as Object
+
+This step parses a JSON string into an Object.
+For example, we have the following JSON:
+
+```JSON
+{
+    "foo":"bar",
+    "baz":{
+        "qux":"quux"
+    }
+}
+```
+
+It'll be converted to the following Object:
+
+```js
+{
+    foo: 'bar',
+    baz: {
+        qux: 'quux'
+    }
+}
+```
